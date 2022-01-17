@@ -17,3 +17,6 @@ reset-vm:
 
 build-vm:
     podman build -t zero2prod .
+
+run-vm:
+    podman run -p 8000:8000 zero2prod
