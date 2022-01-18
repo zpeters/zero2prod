@@ -1,3 +1,8 @@
+.env
+target/
+tests/
+Containerfile
+scripts/
+migrations/
 .git/
 .github/
-target/
