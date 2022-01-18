@@ -27,7 +27,7 @@ DB_PORT="${POSTGRES_PORT:=5432}"
 # launch podman
 if [[ -z "SKIP_DOCKER" ]]
 then
-podman run \
+docker run \
   -e POSTGRES_USER=${DB_USER} \
   -e POSTGRES_PASSWORD=${DB_PASSWORD} \
   -e POSTGRES_DB=${DB_NAME} \
