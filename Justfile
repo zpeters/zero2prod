@@ -14,3 +14,6 @@ vm-build:
 
 vm-run:
     docker run -p 8000:8000 zero2prod
+
+watch:
+    cargo watch -x check
